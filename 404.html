@@ -13,8 +13,8 @@
         <meta name="author" content="zhangbo">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.5">
+      <link rel="shortcut icon" href="/myblog/assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.0.0">
     
     
       
@@ -22,10 +22,10 @@
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.cdeb8541.min.css">
+      <link rel="stylesheet" href="/myblog/assets/stylesheets/main.a3f8f96a.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="/myblog/assets/stylesheets/palette.7fa14f5b.min.css">
         
           
           
@@ -46,8 +46,6 @@
     
     
       
-
-
     
     
   </head>
@@ -58,10 +56,9 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue-grey" data-md-color-accent="pink">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+      
   
-    
-    <script>function __prefix(e){return new URL("/",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -75,11 +72,9 @@
     
       
 
-  
-
-<header class="md-header md-header--lifted" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="基于mkdocs-material搭建个人静态博客(含支持的markdown语法)" class="md-header__button md-logo" aria-label="基于mkdocs-material搭建个人静态博客(含支持的markdown语法)" data-md-component="logo">
+    <a href="https://zzzboxiao.github.io/myblog/" title="基于mkdocs-material搭建个人静态博客(含支持的markdown语法)" class="md-header__button md-logo" aria-label="基于mkdocs-material搭建个人静态博客(含支持的markdown语法)">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -104,8 +99,9 @@
         </div>
       </div>
     </div>
-    
-    
+    <div class="md-header__options">
+      
+    </div>
     
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
@@ -115,18 +111,14 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-        </button>
-      </nav>
-      
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -144,21 +136,25 @@
     
       <div class="md-header__source">
         
-<a href="http://www.nationalchip.com/" title="前往仓库" class="md-source" data-md-component="source">
+<a href="https://zzzboxiao.github.io/myblog/" title="前往 GitHub 仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    国芯科技
+    我的博客
   </div>
 </a>
       </div>
     
   </nav>
-  
+</header>
     
+    <div class="md-container" data-md-component="container">
       
+      
+        
+          
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
@@ -172,7 +168,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/." class="md-tabs__link">
+      <a href="/myblog/." class="md-tabs__link">
         介绍
       </a>
     </li>
@@ -188,7 +184,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/install/local/" class="md-tabs__link">
+      <a href="/myblog/install/local/" class="md-tabs__link">
         安装
       </a>
     </li>
@@ -204,7 +200,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/syntax/main/" class="md-tabs__link">
+      <a href="/myblog/syntax/main/" class="md-tabs__link">
         语法
       </a>
     </li>
@@ -220,7 +216,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/appendix/pygments/" class="md-tabs__link">
+      <a href="/myblog/appendix/pygments/" class="md-tabs__link">
         附录
       </a>
     </li>
@@ -230,13 +226,6 @@
     </ul>
   </div>
 </nav>
-    
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
         
       
       <main class="md-main" data-md-component="main">
@@ -249,12 +238,14 @@
                   <div class="md-sidebar__inner">
                     
 
+
+
   
 
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="基于mkdocs-material搭建个人静态博客(含支持的markdown语法)" class="md-nav__button md-logo" aria-label="基于mkdocs-material搭建个人静态博客(含支持的markdown语法)" data-md-component="logo">
+    <a href="https://zzzboxiao.github.io/myblog/" title="基于mkdocs-material搭建个人静态博客(含支持的markdown语法)" class="md-nav__button md-logo" aria-label="基于mkdocs-material搭建个人静态博客(含支持的markdown语法)">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -265,13 +256,13 @@
   
     <div class="md-nav__source">
       
-<a href="http://www.nationalchip.com/" title="前往仓库" class="md-source" data-md-component="source">
+<a href="https://zzzboxiao.github.io/myblog/" title="前往 GitHub 仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    国芯科技
+    我的博客
   </div>
 </a>
     </div>
@@ -289,92 +280,79 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_1">
-          介绍
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-1">
+        介绍
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="介绍" data-md-level="1">
-        <label class="md-nav__title" for="__nav_1">
+        <label class="md-nav__title" for="nav-1">
           <span class="md-nav__icon md-icon"></span>
           介绍
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="/myblog/." class="md-nav__link">
         1. 本文主题
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/view/what/" class="md-nav__link">
+      <a href="/myblog/view/what/" class="md-nav__link">
         2. mkdocs-material介绍
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/view/statement/" class="md-nav__link">
+      <a href="/myblog/view/statement/" class="md-nav__link">
         3. 提前说明
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/view/bestpractice/" class="md-nav__link">
+      <a href="/myblog/view/bestpractice/" class="md-nav__link">
         4. 最佳实践
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/view/contact/" class="md-nav__link">
+      <a href="/myblog/view/contact/" class="md-nav__link">
         5. 联系方式
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -393,64 +371,55 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2">
-          安装
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-2">
+        安装
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="安装" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
+        <label class="md-nav__title" for="nav-2">
           <span class="md-nav__icon md-icon"></span>
           安装
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/install/local/" class="md-nav__link">
+      <a href="/myblog/install/local/" class="md-nav__link">
         1. 本地环境搭建(含入门配置)
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/install/github-pages/" class="md-nav__link">
+      <a href="/myblog/install/github-pages/" class="md-nav__link">
         2. 发布至GitHub Pages
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/install/http-server/" class="md-nav__link">
+      <a href="/myblog/install/http-server/" class="md-nav__link">
         3. 发布至自己的HTTP Server
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -469,95 +438,81 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3">
-          语法
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3">
+        语法
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="语法" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+        <label class="md-nav__title" for="nav-3">
           <span class="md-nav__icon md-icon"></span>
           语法
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/main/" class="md-nav__link">
+      <a href="/myblog/syntax/main/" class="md-nav__link">
         1. 语法总览
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/headline/" class="md-nav__link">
+      <a href="/myblog/syntax/headline/" class="md-nav__link">
         2. 标题
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/paragraph/" class="md-nav__link">
+      <a href="/myblog/syntax/paragraph/" class="md-nav__link">
         3. 段落
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/quote/" class="md-nav__link">
+      <a href="/myblog/syntax/quote/" class="md-nav__link">
         4. 引用
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/table/" class="md-nav__link">
+      <a href="/myblog/syntax/table/" class="md-nav__link">
         5. 表格
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -565,74 +520,63 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_6">
-          6. 代码
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-6">
+        6. 代码
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="6. 代码" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_6">
+        <label class="md-nav__title" for="nav-3-6">
           <span class="md-nav__icon md-icon"></span>
           6. 代码
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/code_inline/" class="md-nav__link">
+      <a href="/myblog/syntax/code_inline/" class="md-nav__link">
         6.1. 行内
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/code_block/" class="md-nav__link">
+      <a href="/myblog/syntax/code_block/" class="md-nav__link">
         6.2. 区块
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/code_highlight/" class="md-nav__link">
+      <a href="/myblog/syntax/code_highlight/" class="md-nav__link">
         6.3. 高亮
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -640,102 +584,87 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_7" type="checkbox" id="__nav_3_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-7" type="checkbox" id="nav-3-7" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_7">
-          7. 字体样式
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-7">
+        7. 字体样式
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="7. 字体样式" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_7">
+        <label class="md-nav__title" for="nav-3-7">
           <span class="md-nav__icon md-icon"></span>
           7. 字体样式
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/font_stress/" class="md-nav__link">
+      <a href="/myblog/syntax/font_stress/" class="md-nav__link">
         7.1. 斜体,粗体,粗斜体
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/font_updown/" class="md-nav__link">
+      <a href="/myblog/syntax/font_updown/" class="md-nav__link">
         7.2. 上标,下标
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/font_underline/" class="md-nav__link">
+      <a href="/myblog/syntax/font_underline/" class="md-nav__link">
         7.3. 下划线
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/font_line/" class="md-nav__link">
+      <a href="/myblog/syntax/font_line/" class="md-nav__link">
         7.4. 横线
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/font_underline_line/" class="md-nav__link">
+      <a href="/myblog/syntax/font_underline_line/" class="md-nav__link">
         7.5. 下划线+横线
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -743,88 +672,75 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_8" type="checkbox" id="__nav_3_8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_8">
-          8. 列表
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-8">
+        8. 列表
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="8. 列表" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_8">
+        <label class="md-nav__title" for="nav-3-8">
           <span class="md-nav__icon md-icon"></span>
           8. 列表
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/list_noseq/" class="md-nav__link">
+      <a href="/myblog/syntax/list_noseq/" class="md-nav__link">
         8.1. 无序列表
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/list_seq/" class="md-nav__link">
+      <a href="/myblog/syntax/list_seq/" class="md-nav__link">
         8.2. 有序列表
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/list_task/" class="md-nav__link">
+      <a href="/myblog/syntax/list_task/" class="md-nav__link">
         8.3. 任务列表
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/cutline/" class="md-nav__link">
+      <a href="/myblog/syntax/cutline/" class="md-nav__link">
         9. 分割线
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -832,74 +748,63 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_10" type="checkbox" id="__nav_3_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-10" type="checkbox" id="nav-3-10" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_10">
-          10. 链接
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-10">
+        10. 链接
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="10. 链接" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_10">
+        <label class="md-nav__title" for="nav-3-10">
           <span class="md-nav__icon md-icon"></span>
           10. 链接
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/link_normal/" class="md-nav__link">
+      <a href="/myblog/syntax/link_normal/" class="md-nav__link">
         10.1. 普通链接
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/link_auto/" class="md-nav__link">
+      <a href="/myblog/syntax/link_auto/" class="md-nav__link">
         10.2. 自动链接
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/link_anchor/" class="md-nav__link">
+      <a href="/myblog/syntax/link_anchor/" class="md-nav__link">
         10.3. 锚点提示
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -907,74 +812,63 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_11" type="checkbox" id="__nav_3_11" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-11" type="checkbox" id="nav-3-11" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_11">
-          11. 图片
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-11">
+        11. 图片
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="11. 图片" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_11">
+        <label class="md-nav__title" for="nav-3-11">
           <span class="md-nav__icon md-icon"></span>
           11. 图片
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/image_inline/" class="md-nav__link">
+      <a href="/myblog/syntax/image_inline/" class="md-nav__link">
         11.1. 行内式
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/image_index/" class="md-nav__link">
+      <a href="/myblog/syntax/image_index/" class="md-nav__link">
         11.2. 参考式
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/escape/" class="md-nav__link">
+      <a href="/myblog/syntax/escape/" class="md-nav__link">
         12. 转义
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -982,60 +876,51 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_13" type="checkbox" id="__nav_3_13" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-13" type="checkbox" id="nav-3-13" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_13">
-          13. 高亮
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-13">
+        13. 高亮
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="13. 高亮" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_13">
+        <label class="md-nav__title" for="nav-3-13">
           <span class="md-nav__icon md-icon"></span>
           13. 高亮
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/highlight_code/" class="md-nav__link">
+      <a href="/myblog/syntax/highlight_code/" class="md-nav__link">
         13.1. 代码高亮
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/highlight_background/" class="md-nav__link">
+      <a href="/myblog/syntax/highlight_background/" class="md-nav__link">
         13.2. 背景高亮
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1043,172 +928,147 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_14" type="checkbox" id="__nav_3_14" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-14" type="checkbox" id="nav-3-14" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_14">
-          14. 注解
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-14">
+        14. 注解
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="14. 注解" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_14">
+        <label class="md-nav__title" for="nav-3-14">
           <span class="md-nav__icon md-icon"></span>
           14. 注解
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/note_main/" class="md-nav__link">
+      <a href="/myblog/syntax/note_main/" class="md-nav__link">
         14.1. 介绍
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/note_full/" class="md-nav__link">
+      <a href="/myblog/syntax/note_full/" class="md-nav__link">
         14.2. 完整格式
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/note_empty-title/" class="md-nav__link">
+      <a href="/myblog/syntax/note_empty-title/" class="md-nav__link">
         14.3. 空标题
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/note_none-title/" class="md-nav__link">
+      <a href="/myblog/syntax/note_none-title/" class="md-nav__link">
         14.4. 无标题
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/note_none-type/" class="md-nav__link">
+      <a href="/myblog/syntax/note_none-type/" class="md-nav__link">
         14.5. 无类型
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/note_details/" class="md-nav__link">
+      <a href="/myblog/syntax/note_details/" class="md-nav__link">
         14.6. 折叠
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/note_style/" class="md-nav__link">
+      <a href="/myblog/syntax/note_style/" class="md-nav__link">
         14.7. 11种颜色样式
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/note_nest/" class="md-nav__link">
+      <a href="/myblog/syntax/note_nest/" class="md-nav__link">
         14.8. 嵌套
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/footnote/" class="md-nav__link">
+      <a href="/myblog/syntax/footnote/" class="md-nav__link">
         15. 脚注
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/meta/" class="md-nav__link">
+      <a href="/myblog/syntax/meta/" class="md-nav__link">
         16. 元信息
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1216,74 +1076,63 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_17" type="checkbox" id="__nav_3_17" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-17" type="checkbox" id="nav-3-17" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_17">
-          17. 数学公式
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-17">
+        17. 数学公式
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="17. 数学公式" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_17">
+        <label class="md-nav__title" for="nav-3-17">
           <span class="md-nav__icon md-icon"></span>
           17. 数学公式
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/math_main/" class="md-nav__link">
+      <a href="/myblog/syntax/math_main/" class="md-nav__link">
         17.1. 介绍
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/math_js/" class="md-nav__link">
+      <a href="/myblog/syntax/math_js/" class="md-nav__link">
         17.2. 导入js
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/math_usage/" class="md-nav__link">
+      <a href="/myblog/syntax/math_usage/" class="md-nav__link">
         17.3. 用法
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1291,88 +1140,75 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_18" type="checkbox" id="__nav_3_18" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-18" type="checkbox" id="nav-3-18" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_18">
-          18. emoji
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-18">
+        18. emoji
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="18. emoji" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_18">
+        <label class="md-nav__title" for="nav-3-18">
           <span class="md-nav__icon md-icon"></span>
           18. emoji
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/emoji_main/" class="md-nav__link">
+      <a href="/myblog/syntax/emoji_main/" class="md-nav__link">
         18.1. 介绍
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/emoji_principle/" class="md-nav__link">
+      <a href="/myblog/syntax/emoji_principle/" class="md-nav__link">
         18.2. 工作原理
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/emoji_usage/" class="md-nav__link">
+      <a href="/myblog/syntax/emoji_usage/" class="md-nav__link">
         18.3. 最佳实践
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/symbol/" class="md-nav__link">
+      <a href="/myblog/syntax/symbol/" class="md-nav__link">
         19. 特殊符号
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1380,225 +1216,193 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_20" type="checkbox" id="__nav_3_20" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-20" type="checkbox" id="nav-3-20" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_20">
-          20. 嵌套
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-3-20">
+        20. 嵌套
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="20. 嵌套" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_20">
+        <label class="md-nav__title" for="nav-3-20">
           <span class="md-nav__icon md-icon"></span>
           20. 嵌套
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_main/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_main/" class="md-nav__link">
         20.1. 介绍
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_note_note/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_note_note/" class="md-nav__link">
         20.2. 注解-注解
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_list_list/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_list_list/" class="md-nav__link">
         20.3. 列表-列表
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_quote_quote/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_quote_quote/" class="md-nav__link">
         20.4. 引用-引用
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_note_code/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_note_code/" class="md-nav__link">
         20.5. 注解-代码块
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_list_code/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_list_code/" class="md-nav__link">
         20.6. 列表-代码块
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_quote_code/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_quote_code/" class="md-nav__link">
         20.7. 引用-代码块
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_yellow_code/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_yellow_code/" class="md-nav__link">
         20.8. 黄色区块-代码
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_green_code/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_green_code/" class="md-nav__link">
         20.9. 绿色区块-代码
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_red_code/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_red_code/" class="md-nav__link">
         20.10. 红色区块-代码
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_greenred_code/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_greenred_code/" class="md-nav__link">
         20.11. 绿接红区块-代码
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_note_list_quote/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_note_list_quote/" class="md-nav__link">
         20.12. 注解-列表-引用
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_list_list_quote/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_list_list_quote/" class="md-nav__link">
         20.13. 列表-列表-引用
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/syntax/nest_quote_quote_code/" class="md-nav__link">
+      <a href="/myblog/syntax/nest_quote_quote_code/" class="md-nav__link">
         20.14. 引用-引用-代码
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1617,162 +1421,139 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4">
-          附录
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="nav-4">
+        附录
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="附录" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="nav-4">
           <span class="md-nav__icon md-icon"></span>
           附录
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+          
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/pygments/" class="md-nav__link">
+      <a href="/myblog/appendix/pygments/" class="md-nav__link">
         1. 支持代码高亮的语言
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/emoji_shortname/" class="md-nav__link">
+      <a href="/myblog/appendix/emoji_shortname/" class="md-nav__link">
         2. emojione全名短名映射表
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/baidu_tongji/" class="md-nav__link">
+      <a href="/myblog/appendix/baidu_tongji/" class="md-nav__link">
         3. 添加百度统计
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/color/" class="md-nav__link">
+      <a href="/myblog/appendix/color/" class="md-nav__link">
         4. 配色
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/module/" class="md-nav__link">
+      <a href="/myblog/appendix/module/" class="md-nav__link">
         5. 模块介绍
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/level/" class="md-nav__link">
+      <a href="/myblog/appendix/level/" class="md-nav__link">
         6. mkdocs层级关系
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/search/" class="md-nav__link">
+      <a href="/myblog/appendix/search/" class="md-nav__link">
         7. 支持中文搜索
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/yml/" class="md-nav__link">
+      <a href="/myblog/appendix/yml/" class="md-nav__link">
         8. mkdocs.yml范例
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/tab/" class="md-nav__link">
+      <a href="/myblog/appendix/tab/" class="md-nav__link">
         9. tab
       </a>
     </li>
   
 
-            
           
             
-              
   
   
   
     <li class="md-nav__item">
-      <a href="/appendix/chrome/" class="md-nav__link">
+      <a href="/myblog/appendix/chrome/" class="md-nav__link">
         10. 关于chrome显示异常的问题
       </a>
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1797,7 +1578,6 @@
             </article>
           </div>
         </div>
-        
       </main>
       
         
@@ -1807,13 +1587,10 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
-        
-          Made with
-          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-            Material for MkDocs
-          </a>
-        
-        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
       </div>
       
   <div class="md-footer-social">
@@ -1837,14 +1614,14 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.tabs", "navigation.tabs.sticky"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "/assets/javascripts/workers/search.8397ff9e.min.js", "version": 0.1}</script>
+    <script id="__config" type="application/json">{"base": "/myblog/", "features": ["navigation.tabs", "navigation.tabs.sticky"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "/myblog/assets/javascripts/workers/search.217ffd95.min.js", "version": 0.1}</script>
     
     
-      <script src="/assets/javascripts/bundle.1e84347e.min.js"></script>
+      <script src="/myblog/assets/javascripts/bundle.926459b3.min.js"></script>
       
-        <script src="/js/extra.js"></script>
+        <script src="/myblog/js/extra.js"></script>
       
-        <script src="/js/baidu-tongji.js"></script>
+        <script src="/myblog/js/baidu-tongji.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
