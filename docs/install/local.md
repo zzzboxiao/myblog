@@ -2,16 +2,31 @@
 
 ---
 
-- python: 2.7.13
+- python: 3.7.9
 
 - 依赖的python包:
 
 	| 包名 | 模块名 | 版本 |
 	| :-- | :---- | :--  |
-	| mkdocs | mkdocs | 1.0.4 |
-	| mkdocs-material | material | 3.0.6 |
-	| Markdown | markdown | 3.0.1 |
-	| pymdown-extensions | pymdownx | 6.0 |
+	| mkdocs | mkdocs | 1.2.3 |
+	| mkdocs-material | material | 7.3.5 |
+	| Markdown | markdown | 3.3.4 |
+	| pymdown-extensions | pymdownx | 9.0 |
+
+#### **依赖包安装**
+
+```text
+pip install mkdocs
+
+pip install Markdown
+
+pip install pymdown-extensions
+```
+
+#### **查看安装包版本**
+```text
+pip list
+```
 
 ## **mkdocs-material部署**
 
@@ -43,7 +58,12 @@ mkdocs.yml里添加:
 ```text
 theme:
   name: material
+  features:  # 开启Table功能
+    - navigation.tabs
+    - navigation.tabs.sticky
 ```
+
+
 
 ### **添加页面**
 
@@ -93,6 +113,7 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tilde
 ```
+### **路由跳转**
 
 - [可选][添加百度统计](./../../appendix/baidu_tongji/)
 

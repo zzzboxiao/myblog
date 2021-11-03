@@ -24,7 +24,20 @@ primary和accent的默认值均是"Indigo"
 ---
 
 鼠标点击即可临时改变当前页主体颜色
-<div>
+<style>
+  .md-typeset button[data-md-color-primary]{
+    width: 6.5rem;
+    margin-bottom: 0.2rem;
+    padding: 1.2rem 0.4rem 0.2rem;
+    border-radius: 0.1rem;
+    background-color: var(--md-primary-fg-color);
+    color: white;
+    font-size: .64rem;
+    text-align: left;
+    cursor: pointer;
+  }
+</style>
+<div class="md-typeset">
   <button data-md-color-primary="red">Red</button>
   <button data-md-color-primary="pink">Pink</button>
   <button data-md-color-primary="purple">Purple</button>
@@ -60,24 +73,37 @@ primary和accent的默认值均是"Indigo"
 ---
 
 鼠标点击即可临时改变当前页鼠标悬停超链接文字颜色
-
-<button data-md-color-accent="red">Red</button>
-<button data-md-color-accent="pink">Pink</button>
-<button data-md-color-accent="purple">Purple</button>
-<button data-md-color-accent="deep-purple">Deep Purple</button>
-<button data-md-color-accent="indigo">Indigo</button>
-<button data-md-color-accent="blue">Blue</button>
-<button data-md-color-accent="light-blue">Light Blue</button>
-<button data-md-color-accent="cyan">Cyan</button>
-<button data-md-color-accent="teal">Teal</button>
-<button data-md-color-accent="green">Green</button>
-<button data-md-color-accent="light-green">Light Green</button>
-<button data-md-color-accent="lime">Lime</button>
-<button data-md-color-accent="yellow">Yellow</button>
-<button data-md-color-accent="amber">Amber</button>
-<button data-md-color-accent="orange">Orange</button>
-<button data-md-color-accent="deep-orange">Deep Orange</button>
-
+<style>
+  .md-typeset button[data-md-color-accent]{
+    width: 6.5rem;
+    margin-bottom: 0.2rem;
+    padding: 1.2rem 0.4rem 0.2rem;
+    border-radius: 0.1rem;
+    background-color: var(--md-accent-fg-color);
+    color: white;
+    font-size: .64rem;
+    text-align: left;
+    cursor: pointer;
+  }
+</style>
+<div class="md-typeset">
+  <button data-md-color-accent="red">Red</button>
+  <button data-md-color-accent="pink">Pink</button>
+  <button data-md-color-accent="purple">Purple</button>
+  <button data-md-color-accent="deep-purple">Deep Purple</button>
+  <button data-md-color-accent="indigo">Indigo</button>
+  <button data-md-color-accent="blue">Blue</button>
+  <button data-md-color-accent="light-blue">Light Blue</button>
+  <button data-md-color-accent="cyan">Cyan</button>
+  <button data-md-color-accent="teal">Teal</button>
+  <button data-md-color-accent="green">Green</button>
+  <button data-md-color-accent="light-green">Light Green</button>
+  <button data-md-color-accent="lime">Lime</button>
+  <button data-md-color-accent="yellow">Yellow</button>
+  <button data-md-color-accent="amber">Amber</button>
+  <button data-md-color-accent="orange">Orange</button>
+  <button data-md-color-accent="deep-orange">Deep Orange</button>
+</div>
 <script>
   var buttons = document.querySelectorAll("button[data-md-color-accent]");
   console.log(buttons)
