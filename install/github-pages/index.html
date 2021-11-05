@@ -447,15 +447,22 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    导入项目到Github
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    导入项目
+    项目部署上线
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    发布
+    访问文档网址
   </a>
   
 </li>
@@ -1650,15 +1657,22 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    导入项目到Github
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    导入项目
+    项目部署上线
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    发布
+    访问文档网址
   </a>
   
 </li>
@@ -1678,7 +1692,7 @@
                 
                   <h1>2. 发布至GitHub Pages</h1>
                 
-                <p>通过mkdocs gh-deploy自动编译出html并发布至GitHub pages</p>
+                <p>通过<code>mkdocs gh-deploy</code>自动编译出html并发布至GitHub pages</p>
 <h2 id="repo"><strong>初始化repo</strong><a class="headerlink" href="#repo" title="Permanent link">&para;</a></h2>
 <hr />
 <ol>
@@ -1686,16 +1700,36 @@
 <p>在github上创建一个repo，名字叫my-project</p>
 </li>
 <li>
-<p>将repo同步到本地</p>
+<p>根据提示将项目repo同步到本地</p>
 </li>
 </ol>
-<h2 id="_1"><strong>导入项目</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>echo &quot;# my-project&quot; &gt;&gt; README.md
+git init
+git add README.md
+git commit -m &quot;first commit&quot;
+git branch -M main
+git remote add origin git@github.com:zzzboxiao/my-project.git
+git push -u origin main
+</code></pre></div>
+<h2 id="github"><strong>导入项目到Github</strong><a class="headerlink" href="#github" title="Permanent link">&para;</a></h2>
 <hr />
-<p>将mkdocs根目录(my-project)下的所有东西移到本地git目录下 (然后可以将mkdocs根目录删除了)</p>
-<h2 id="_2"><strong>发布</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><img alt="github" src="../../img/github-my-project.png" /></p>
+<h2 id="_1"><strong>项目部署上线</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <hr />
-<p>在本地git目录下执行</p>
-<div class="codehilite"><pre><span></span><code>mkdocs gh-deploy
+<p>在本地<code>my-project/</code>目录下执行</p>
+<div class="codehilite"><pre><span></span><code>$ mkdocs gh-deploy
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for &#39;gh-pages&#39; on GitHub by visiting:
+remote:      https://github.com/github_username/my-project/pull/new/gh-pages
+remote: 
+To github.com:github_username/my-project.git
+* [new branch]      gh-pages -&gt; gh-pages
+INFO     -  Your documentation should shortly be available at: https://github_username.github.io/my-project/
+</code></pre></div>
+
+<h2 id="_2"><strong>访问文档网址</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>https://github_username.github.io/my-project/
 </code></pre></div>
                 
               
