@@ -51,6 +51,15 @@ mkdocs new my-project
 
 会生成my-project目录，进入该目录里，可以看到默认放置了一些文件，包括mkdocs.yml，这是主配置文件
 
+```text
+my-project/
+├── docs
+│   └── index.md
+└── mkdocs.yml
+
+1 directory, 2 files
+```
+
 ### **修改主题**
 
 mkdocs.yml里添加:
@@ -58,9 +67,6 @@ mkdocs.yml里添加:
 ```text
 theme:
   name: material
-  features:  # 开启Table功能
-    - navigation.tabs
-    - navigation.tabs.sticky
 ```
 
 
@@ -126,7 +132,6 @@ markdown_extensions:
 ### **mkdocs服务启动**
 
 ```text
-# 在my-project目录里执行
 mkdocs serve
 ```
 

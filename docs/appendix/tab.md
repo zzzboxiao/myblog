@@ -5,8 +5,9 @@
 ```yaml
 theme:
   name: material
-  feature:
-    tabs: true
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 ```
 
 ![](../img/tab.png)
