@@ -1,9 +1,12 @@
 site_name: 基于mkdocs-material搭建个人静态博客(含支持的markdown语法)
 site_description: mkdocs搭建，使用material主题，并包含官方支持的markdown语法，包括传统语法和扩展语法
-site_author: zhangbo
+site_author: zzzboxiao
 site_url: https://zzzboxiao.github.io/myblog/
 
-# 静态资源输出文件夹
+# 文档存放目录
+# docs_dir: docs/
+
+# 静态资源存放目录
 # site_dir: ../dist/help
 
 # 本地调试端口
@@ -89,7 +92,7 @@ nav:
       - 3. 发布至自己的HTTP Server: install/http-server.md
   - 语法:
       - 1. 语法总览: syntax/main.md
-      - 2. 标题: syntax/headline.md
+      - 2. 标题: syntax/title.md
       - 3. 段落: syntax/paragraph.md
       - 4. 引用: syntax/quote.md
       - 5. 表格: syntax/table.md
@@ -165,3 +168,6 @@ nav:
       - 8. mkdocs.yml范例: appendix/yml.md
       - 9. tab: appendix/tab.md
       - 10. 关于chrome显示异常的问题: appendix/chrome.md
+
+## Copyright
+copyright: 'Powered by: mkdocs Copyright © zzzboxiao.github.io'
